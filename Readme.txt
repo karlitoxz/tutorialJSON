@@ -20,3 +20,7 @@ Ejemplo:
 "Hijos":["ivan","anastasia"]
 }
 
+//Validar JSON
+https://jsonlint.com/
+
+
