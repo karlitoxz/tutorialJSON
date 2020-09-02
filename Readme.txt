@@ -25,3 +25,15 @@ https://jsonlint.com/
 
 //Creacion de servidor live-serve con node.js
 npm install live-server -g
+
+//Pedir datos al live-server node.js
+	XMLHttpRequest
+	https://www.w3schools.com/xml/xml_http.asp
+
+	//iniciar el servidor nos vamos al directorio donde estan los ficheros y:
+	>live-server
+	http://127.0.0.1:8080/
+
+	//Plugin para refrescar: Live reload enabled.
+	
+
