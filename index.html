@@ -6,23 +6,55 @@
 	<title>Tutorial JSON</title>
 </head>
 <body>
+
+	<ul id="personas">
+		
+	</ul>
+
 	<script type="text/javascript">
-		var persona = {
+
+		//Primer objeto:
+		/*var persona = {
 			"nombre": "Juan",
 			"apellido": "Romero",
 			"edad": 34,
 			"nickname": "Karlitoxz"
-		};
+		};*/
+
+		//Arreglo de personas:
+			 /* var personas = [
+		         {nombre: "fabian", nickname:"fazt"},
+		         {nombre: "jesus", nickname:"jesus123"},
+		         {nombre: "maria", nickname:"maria24"},
+		         {nombre: "luis", nickname:"luis123"},
+		         {nombre: "oscar", nickname:"oscar12"},
+		       ]*/
 
 		//Ver los atributos individuales:
 			//console.log(persona.nombre);
 		//Ver los atributos del indice 0 del array
 			//console.log(personas[0].nombre);
+
 		//Usar FOR para mostrar todas las personas.
+			//var salida = '';
+		/*
 			for (var i = 0; i < personas.length; i++) {
-				console.log(personas[i]);
+				//console.log(personas[i]);
 				//console.log(personas[i].nombre);
-			}		
+				salida += '<li>'+ personas[i].nombre + ' es: '+ personas[i].nickname + '</li>';
+			}*/
+		//	
+
+		//Usar FOR para mostrar todas las personas con interpolacion `.
+		/* for(var i = 0; i < personas.length; i++) {
+        	 salida += `<li>${personas[i].nombre} su nickname es ${personas[i].nickname}</li>`;
+      	 }*/
+
+
+		//Busqueda de elementos con id
+			/*document.getElementById('personas').innerHTML = salida;*/
+
+		//	
 	</script>
 	
 </body>

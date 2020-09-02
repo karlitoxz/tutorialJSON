@@ -23,4 +23,5 @@ Ejemplo:
 //Validar JSON
 https://jsonlint.com/
 
-
+//Creacion de servidor live-serve con node.js
+npm install live-server -g
